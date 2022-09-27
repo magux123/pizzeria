@@ -1,0 +1,127 @@
+body{
+	text-align: center;
+
+}
+.nav, ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.titulo{
+    padding: 5px 400px;
+    font-size: 30px;
+}
+
+.icon {
+    float: left;
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 60px;
+    width: 60px;
+    background-color: #FFCC93;
+    border-radius: 15px;
+    opacity: 50%;
+}
+
+
+html{
+	background-image: url(fondo.jpg);
+	height: auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+.menu{
+    font-size: 20px;
+    padding: 5px 200px;
+    background-color: #FFCC93;
+    opacity: 30%;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+a:hover {
+  color: black;
+}
+img.imagen{
+	border-color: white;
+	border: 5px solid;
+	border-radius: 100px;
+}
+div.oscar{
+	float: left;
+	margin-left: 200px;
+}
+div.trabajo{
+	float: right;
+	margin-right: 250px;
+
+}
+div.maderera{
+	float: left;
+	margin-top: 350px;
+	margin-left: -220px;
+}
+div.moblar{
+	float: right;
+	margin-top: 270px;
+	margin-right: -285px;
+}
+p{
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+  }
+  
+  ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  form li + li {
+	margin-top: 1em;
+  }
+  
+  label {
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+  }
+  
+  input,
+  textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 255, 255);
+  }
+  
+  input:focus,
+  textarea:focus {
+	border-color: rgb(243, 240, 240);
+  }
+  
+  textarea {
+	vertical-align: top;
+	height: 5em;
+  }
+  
+  .button {
+	padding-left: 90px; 
+  }
+  
+  button {
+	margin-left: .5em;
+  }
